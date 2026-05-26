@@ -71,7 +71,7 @@ function App() {
 
     try {
       const respuesta = await fetch(
-        'http://localhost:5678/webhook-test/menu-dia',
+  'https://n8n-production-d92c1.up.railway.app/webhook/menu-dia',
         {
           method: 'POST',
           headers: {

@@ -123,12 +123,13 @@ function App() {
 
         <form onSubmit={generarMenu}>
 
-          <label>FECHA DEL MENÚ</label>
+          <label>FECHA DEL MENÚ — formato 2026-05-27</label>
 
           <input
             type="date"
             value={fecha}
             onChange={(e) => setFecha(e.target.value)}
+            placeholder="2026-05-27"
             required
           />
 

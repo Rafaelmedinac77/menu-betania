@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #2b1209;
+  color: #2b1209;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background:
+    radial-gradient(circle at top, rgba(212, 163, 74, 0.25), transparent 35%),
+    linear-gradient(135deg, #1b0904, #3a1b0e);
+}
+
+.card {
+  width: 100%;
+  max-width: 720px;
+  background: #fff8ec;
+  padding: 36px;
+  border-radius: 24px;
+  border: 2px solid #d4a34a;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.restaurant {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 800;
+  color: #8b5a2b;
+  margin-bottom: 6px;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 1;
+  color: #3a1b0e;
+  margin-bottom: 4px;
+}
+
+.brand {
+  font-size: 26px;
+  color: #c58b2d;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  color: #6b4a35;
+  font-size: 17px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+label {
+  font-weight: 900;
+  color: #8b5a2b;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+textarea {
+  min-height: 170px;
+  padding: 16px;
+  font-size: 17px;
+  line-height: 1.5;
+  border-radius: 14px;
+  border: 2px solid #d7b36a;
+  resize: vertical;
+  outline: none;
+  background: #fff;
+  color: #2b1209;
+}
+
+textarea:focus {
+  border-color: #8b5a2b;
+  box-shadow: 0 0 0 4px rgba(139, 90, 43, 0.15);
+}
+
+button {
+  margin-top: 10px;
+  padding: 17px;
+  border: none;
+  background: linear-gradient(135deg, #8b5a2b, #c58b2d);
+  color: white;
+  cursor: pointer;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 30px rgba(139, 90, 43, 0.35);
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 24px;
+  }
+
+  h1 {
+    font-size: 46px;
+  }
+}
+.logo {
+  width: 320px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+input[type="date"] {
+  padding: 14px;
+  border-radius: 12px;
+  border: 2px solid #d7b36a;
+  font-size: 16px;
+  background: white;
+}
+.download-btn,
+.boton-descarga {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 24px;
+  background: #b67a22;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.download-btn:hover,
+.boton-descarga:hover {
+  background: #8d5f19;
+}

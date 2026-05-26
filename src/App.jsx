@@ -126,7 +126,7 @@ function App() {
           <label>FECHA DEL MENÚ — formato 2026-05-27</label>
 
           <input
-            type="date"
+            type="text"
             value={fecha}
             onChange={(e) => setFecha(e.target.value)}
             placeholder="2026-05-27"
